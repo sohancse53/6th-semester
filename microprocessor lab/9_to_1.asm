@@ -1,0 +1,17 @@
+org 100h
+MOV BL ,57
+
+lOOP:
+MOV AH, 2
+MOV DL, BL
+INT 21H
+
+MOV DL,32
+INT 21H
+
+DEC BL
+CMP BL, 49
+JGE LOOP 
+
+
+ret

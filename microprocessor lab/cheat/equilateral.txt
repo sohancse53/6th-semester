@@ -1,0 +1,50 @@
+.model small
+.stack 100
+.data
+.code
+
+main proc
+   mov ax, @data
+   mov ds,ax
+
+   mov bx,1      ; star count starts from 1
+   mov cx,5      ; number of rows (outer loop counter)
+
+l1: 
+   push cx       ; save outer loop counter
+   
+   ; ---- print spaces ----
+   mov cx,5
+   sub cx,bx     ; spaces = totalRows - currentRow
+l2:
+   mov ah,2
+   mov dl,' '
+   int 21h
+   loop l2
+
+   ; ---- print stars ----
+   mov cx,bx     ; stars = current row number
+l3:
+   mov ah,2
+   mov dl,'*'
+   int 21h
+   mov ah,2
+   mov dl,' '    ; space after star
+   int 21h
+   loop l3
+
+   ; ---- new line ----
+   mov ah,2
+   mov dl,10
+   int 21h
+   mov dl,13
+   int 21h
+
+   inc bx        ; increase stars for next row
+   pop cx        ; restore outer loop counter
+   loop l1
+
+   mov ah,4ch
+   int 21h
+main endp
+end main

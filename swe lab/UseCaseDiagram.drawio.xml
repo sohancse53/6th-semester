@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram name="Page-1" id="SXDRv7IxQTVqL00VgPQM">
+    <mxGraphModel dx="1665" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-1" value="Disaster Management System" style="rounded=1;dashed=1;strokeColor=blue;fillColor=none;fontColor=blue;" vertex="1" parent="1">
+          <mxGeometry x="540" y="330" width="800" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-2" value="Create Alert" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WteQJmFUeBMF7xLfmTlE-1">
+          <mxGeometry x="110" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-3" value="Report Incident" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WteQJmFUeBMF7xLfmTlE-1">
+          <mxGeometry x="300" y="170" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-4" value="Provide Feedback" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WteQJmFUeBMF7xLfmTlE-1">
+          <mxGeometry x="190" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-5" value="Manage Users" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WteQJmFUeBMF7xLfmTlE-1">
+          <mxGeometry x="580" y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-6" value="Manage Resources" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WteQJmFUeBMF7xLfmTlE-1">
+          <mxGeometry x="600" y="350" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-7" value="Track Disaster Event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WteQJmFUeBMF7xLfmTlE-1">
+          <mxGeometry x="440" y="450" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-8" value="Affect Location" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WteQJmFUeBMF7xLfmTlE-1">
+          <mxGeometry x="10" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-9" style="edgeStyle=orthogonalEdgeStyle;dashed=1;rounded=0;html=1;" edge="1" parent="WteQJmFUeBMF7xLfmTlE-1" source="WteQJmFUeBMF7xLfmTlE-3" target="WteQJmFUeBMF7xLfmTlE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-10" style="edgeStyle=orthogonalEdgeStyle;dashed=1;rounded=0;html=1;" edge="1" parent="WteQJmFUeBMF7xLfmTlE-1" source="WteQJmFUeBMF7xLfmTlE-7" target="WteQJmFUeBMF7xLfmTlE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-11" value="User" style="shape=actor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="470" y="390" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-12" value="Admin" style="shape=actor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="430" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-13" value="System" style="shape=actor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="730" y="220" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="WteQJmFUeBMF7xLfmTlE-11" target="WteQJmFUeBMF7xLfmTlE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="WteQJmFUeBMF7xLfmTlE-11" target="WteQJmFUeBMF7xLfmTlE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="WteQJmFUeBMF7xLfmTlE-11" target="WteQJmFUeBMF7xLfmTlE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="WteQJmFUeBMF7xLfmTlE-12" target="WteQJmFUeBMF7xLfmTlE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="WteQJmFUeBMF7xLfmTlE-12" target="WteQJmFUeBMF7xLfmTlE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="WteQJmFUeBMF7xLfmTlE-12" target="WteQJmFUeBMF7xLfmTlE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="WteQJmFUeBMF7xLfmTlE-12" target="WteQJmFUeBMF7xLfmTlE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="WteQJmFUeBMF7xLfmTlE-13" target="WteQJmFUeBMF7xLfmTlE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" edge="1" parent="1" source="WteQJmFUeBMF7xLfmTlE-13" target="WteQJmFUeBMF7xLfmTlE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WteQJmFUeBMF7xLfmTlE-23" value="Manage Disaster Types" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="590" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
