@@ -11,6 +11,7 @@
  * number of geometry stacks and slices can be adjusted
  * using the + and - keys.
  */
+ #include<windows.h>
 #include<windows.h>
 #ifdef __APPLE__
 #include <GLUT/glut.h>

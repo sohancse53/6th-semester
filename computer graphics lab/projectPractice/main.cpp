@@ -239,6 +239,9 @@ static void display(void) {
     drawPerson(0.6, personY[1]);
     drawPerson(0.7, personY[2]);
 
+
+
+
     glFlush();
 }
 
