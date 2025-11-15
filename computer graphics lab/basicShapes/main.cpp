@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include<math.h>
 using namespace std;
-
+float _angle = 30;
 
 static void display(void)
 {
@@ -132,6 +132,22 @@ glEnd();
 */
 
 
+
+//-----------------------------Rotating Shape---------------------------
+
+    glPushMatrix();
+       //glTranslatef(0.5,0.5,0);
+    glRotatef(_angle,0,0,-1);
+    //glScalef(1,1,1);
+        glBegin(GL_QUADS);
+            glColor3f(1,0.5,0.3);
+            glVertex2f(0.2,0.2);
+            glVertex2f(0.2,-0.2);
+            glVertex2f(-0.2,-0.2);
+            glVertex2f(-0.2,0.2);
+
+        glEnd();
+        glPopMatrix();
      glFlush();
 
 }
@@ -143,10 +159,17 @@ glClearColor (0.0, 0.0, 0.0, 0.0);
 /* initialize viewing values */
 glMatrixMode(GL_PROJECTION);
 glLoadIdentity();
-glOrtho(-1.0, 1.0, -1.0, 1.0, -1, 1);
+glOrtho(-1, 1, -1, 1, -1, 1);
 }
 
-
+void update(int value){
+_angle +=2.0f;
+if(_angle>360){
+    _angle -=360;
+}
+glutPostRedisplay();
+glutTimerFunc(25,update,0);
+}
 
 
 int main(int argc, char *argv[])
@@ -158,6 +181,7 @@ glutInitWindowPosition (100, 100);
 glutCreateWindow ("Basic Shapes");
 init ();
 glutDisplayFunc(display);
+glutTimerFunc(25,update,0);
 glutMainLoop();
 
     return EXIT_SUCCESS;

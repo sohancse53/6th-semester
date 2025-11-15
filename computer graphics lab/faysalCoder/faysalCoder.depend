@@ -1,10 +1,8 @@
 # depslib dependency file v1.0
-1762616894 source:e:\6th semester\computer graphics lab\basicshapes\main.cpp
+1763110169 source:e:\6th semester\computer graphics lab\faysalcoder\main.cpp
 	<windows.h>
-	<GLUT/glut.h>
+	<iostream>
 	<GL/glut.h>
-	<bits/stdc++.h>
-	<stdlib.h>
 	<math.h>
 
 1453865572 c:\program files\codeblocks\mingw\include\gl\glut.h
